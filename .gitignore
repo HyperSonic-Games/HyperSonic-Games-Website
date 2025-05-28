@@ -1,5 +1,13 @@
-# Build artifacts
+# Ignore everything in bin except the publish folder
 bin/
+!bin/Release/
+bin/Release/*
+!bin/Release/net9.0/
+bin/Release/net9.0/*
+!bin/Release/net9.0/publish/
+!bin/Release/net9.0/publish/**
+
+# Ignore obj
 obj/
 
 # VS/VSCode
@@ -9,19 +17,17 @@ obj/
 *.suo
 *.csproj.user
 
-# MacOS/Linux/Windows system files
+# System files
 .DS_Store
 Thumbs.db
-
 
 # Logs
 *.log
 
-# Rider/JetBrains
+# JetBrains Rider
 .idea/
 
-
-# Backup files
+# Backup and temp files
 *.bak
 *.old
 *.orig
