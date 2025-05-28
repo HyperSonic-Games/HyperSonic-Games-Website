@@ -1,0 +1,30 @@
+# Build artifacts
+bin/
+obj/
+dist/
+
+# VS/VSCode
+.vscode/
+.vs/
+*.user
+*.suo
+*.csproj.user
+
+# MacOS/Linux/Windows system files
+.DS_Store
+Thumbs.db
+
+
+# Logs
+*.log
+
+# Rider/JetBrains
+.idea/
+
+
+# Backup files
+*.bak
+*.old
+*.orig
+*.tmp
+*.swp
