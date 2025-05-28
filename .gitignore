@@ -1,7 +1,6 @@
 # Build artifacts
 bin/
 obj/
-dist/
 
 # VS/VSCode
 .vscode/
